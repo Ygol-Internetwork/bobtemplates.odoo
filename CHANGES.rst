@@ -5,6 +5,10 @@ Changes
 .. ----------
 .. -
 
+1.5.0 (2022-03-19)
+------------------
+- [IMP] switch to new template adapted for ygol
+
 1.4.1 (2022-02-18)
 ------------------
 - [IMP] GNU: Change url to https

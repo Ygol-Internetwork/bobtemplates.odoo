@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # Copyright © 2016 ACSONE SA/NV
-# Copyright 2019 Anvar Kildebekov <https://it-projects.info/team/fedoranvar>
-# Copyright 2022 Yves Goldberg Ygol InternetWork
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 import ast
 import os
@@ -169,17 +167,6 @@ def post_render_addon(configurator):
             ".oca",
             configurator,
             variables["addon.name"] + "/static/description/icon.png.oca",
-        )
-    elif variables["addon.ygol"]:
-        _rm_suffix(".ygol", configurator, variables["addon.name"] + "/README.rst.ygol")
-        _rm_suffix(
-            ".ygol",
-            configurator,
-            variables["addon.name"] + "/static/description/icon.png.ygol",
-        )
-        _delete_file(configurator, variables["addon.name"] + "/README.rst.oca")
-        _delete_file(
-            configurator, variables["addon.name"] + "/static/description/icon.png.oca"
         )
     else:
         _delete_file(configurator, variables["addon.name"] + "/README.rst.oca")
