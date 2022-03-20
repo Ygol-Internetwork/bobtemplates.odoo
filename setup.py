@@ -1,14 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Copyright © 2016 ACSONE SA/NV
+# Copyright © 2022 Ygol-InternetWork
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 from setuptools import find_packages, setup
 
 setup(
-    name="bobtemplates.odoo",
+    name="bobtemplates.ygol",
     use_scm_version=True,
-    description="mr.bob templates for Odoo projects",
+    description="mr.bob templates for Ygol Odoo projects",
     long_description="\n".join((open("README.rst").read(), open("CHANGES.rst").read())),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -20,9 +21,9 @@ setup(
         "Framework :: Odoo",
     ],
     license="LGPLv3",
-    author="ACSONE SA/NV",
-    author_email="info@acsone.eu",
-    url="http://github.com/acsone/bobtemplates.odoo",
+    author="Ygol InternetWork",
+    author_email="info@ygol.com",
+    url="http://github.com/Ygol-Internetwork/bobtemplates.odoo",
     install_requires=["mr.bob"],
     packages=find_packages(exclude=["tests"]),
     # TODO: bobtemplates.odoo should be a ns package too but that breaks mr.bob

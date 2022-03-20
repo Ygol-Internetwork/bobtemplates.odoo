@@ -5,6 +5,9 @@ Changes
 .. ----------
 .. -
 
+1.5.0 (2022-03-20)
+- [IMP] Hack for Ygol InternetWork internal use.
+
 1.4.1 (2022-02-18)
 ------------------
 - [IMP] GNU: Change url to https

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright {{{ copyright.year }}} {{{ copyright.name }}}
-     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<!--
+    # Copyright (C) {{{ copyright.year }}}- PRESENT to Yves Goldberg - Ygol InternetWork - All Rights Reserved
+    # Part of module {{{ addon.name }}}.
+    # See LICENSE file for full copyright and licensing details.
+-->
 
 {{% if odoo.version < 9 %}}
 <openerp>
